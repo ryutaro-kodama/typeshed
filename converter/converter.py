@@ -140,7 +140,7 @@ class Converter:
             do_method_tag = ET.SubElement(
                 func_class_tag, "method",
                 {"name":"do", "descriptor":"()LRoot;", "num_args":str(self._get_num_args(tree.args)),
-                 "param_names":self._get_arg_names(tree.args), "static":"true"}
+                 "param_names":self._get_arg_names(tree.args), "static":"false"}
             )
 
             # Convert return type.

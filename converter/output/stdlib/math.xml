@@ -5,6 +5,16 @@
     <class name="math" allocatable="true">
       <method name="import" static="true" descriptor="()Lmath;">
         <new def="obj_typeshed_" class="Lmath"/>
+        <new def="e_typeshed_" class="D"/>
+        <putfield class="LRoot" field="e" fieldType="LRoot" ref="obj_typeshed_" value="e_typeshed_"/>
+        <new def="pi_typeshed_" class="D"/>
+        <putfield class="LRoot" field="pi" fieldType="LRoot" ref="obj_typeshed_" value="pi_typeshed_"/>
+        <new def="inf_typeshed_" class="D"/>
+        <putfield class="LRoot" field="inf" fieldType="LRoot" ref="obj_typeshed_" value="inf_typeshed_"/>
+        <new def="nan_typeshed_" class="D"/>
+        <putfield class="LRoot" field="nan" fieldType="LRoot" ref="obj_typeshed_" value="nan_typeshed_"/>
+        <new def="tau_typeshed_" class="D"/>
+        <putfield class="LRoot" field="tau" fieldType="LRoot" ref="obj_typeshed_" value="tau_typeshed_"/>
         <new def="acos_typeshed_" class="Lmath/function/acos"/>
         <putfield class="LRoot" field="acos" fieldType="LRoot" ref="obj_typeshed_" value="acos_typeshed_"/>
         <new def="acosh_typeshed_" class="Lmath/function/acosh"/>
@@ -92,257 +102,257 @@
     </class>
     <package name="math/function">
       <class name="acos" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed0" class="D"/>
+          <return value="_typeshed0"/>
         </method>
       </class>
       <class name="acosh" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed1" class="D"/>
+          <return value="_typeshed1"/>
         </method>
       </class>
       <class name="asin" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed2" class="D"/>
+          <return value="_typeshed2"/>
         </method>
       </class>
       <class name="asinh" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed3" class="D"/>
+          <return value="_typeshed3"/>
         </method>
       </class>
       <class name="atan" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed4" class="D"/>
+          <return value="_typeshed4"/>
         </method>
       </class>
       <class name="atan2" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="__y __x" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="__y __x" static="false">
+          <new def="_typeshed5" class="D"/>
+          <return value="_typeshed5"/>
         </method>
       </class>
       <class name="atanh" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed6" class="D"/>
+          <return value="_typeshed6"/>
         </method>
       </class>
       <class name="ceil" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="int"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed7" class="I"/>
+          <return value="_typeshed7"/>
         </method>
       </class>
       <class name="copysign" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="__x __y" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="__x __y" static="false">
+          <new def="_typeshed8" class="D"/>
+          <return value="_typeshed8"/>
         </method>
       </class>
       <class name="cos" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed9" class="D"/>
+          <return value="_typeshed9"/>
         </method>
       </class>
       <class name="cosh" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed10" class="D"/>
+          <return value="_typeshed10"/>
         </method>
       </class>
       <class name="degrees" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed11" class="D"/>
+          <return value="_typeshed11"/>
         </method>
       </class>
       <class name="erf" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed12" class="D"/>
+          <return value="_typeshed12"/>
         </method>
       </class>
       <class name="erfc" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed13" class="D"/>
+          <return value="_typeshed13"/>
         </method>
       </class>
       <class name="exp" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed14" class="D"/>
+          <return value="_typeshed14"/>
         </method>
       </class>
       <class name="expm1" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed15" class="D"/>
+          <return value="_typeshed15"/>
         </method>
       </class>
       <class name="fabs" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed16" class="D"/>
+          <return value="_typeshed16"/>
         </method>
       </class>
       <class name="floor" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="int"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed17" class="I"/>
+          <return value="_typeshed17"/>
         </method>
       </class>
       <class name="fmod" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="__x __y" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="__x __y" static="false">
+          <new def="_typeshed18" class="D"/>
+          <return value="_typeshed18"/>
         </method>
       </class>
       <class name="frexp" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="Ltuple"/>
-          <new def="tmp_elt_typeshed0" class="D"/>
-          <putfield class="LRoot" field="0" fieldType="LRoot" ref="tmp_ret_typeshed_" value="tmp_elt_typeshed0"/>
-          <new def="tmp_elt_typeshed1" class="int"/>
-          <putfield class="LRoot" field="1" fieldType="LRoot" ref="tmp_ret_typeshed_" value="tmp_elt_typeshed1"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed19" class="Ltuple"/>
+          <new def="_typeshed20" class="D"/>
+          <putfield class="LRoot" field="0" fieldType="LRoot" ref="_typeshed19" value="_typeshed20"/>
+          <new def="_typeshed21" class="I"/>
+          <putfield class="LRoot" field="1" fieldType="LRoot" ref="_typeshed19" value="_typeshed21"/>
+          <return value="_typeshed19"/>
         </method>
       </class>
       <class name="fsum" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__seq" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__seq" static="false">
+          <new def="_typeshed22" class="D"/>
+          <return value="_typeshed22"/>
         </method>
       </class>
       <class name="gamma" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed23" class="D"/>
+          <return value="_typeshed23"/>
         </method>
       </class>
       <class name="isclose" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="4" param_names="a b rel_tol abs_tol" static="true">
-          <new def="tmp_ret_typeshed_" class="Z"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="4" param_names="a b rel_tol abs_tol" static="false">
+          <new def="_typeshed24" class="Z"/>
+          <return value="_typeshed24"/>
         </method>
       </class>
       <class name="isinf" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="Z"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed25" class="Z"/>
+          <return value="_typeshed25"/>
         </method>
       </class>
       <class name="isfinite" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="Z"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed26" class="Z"/>
+          <return value="_typeshed26"/>
         </method>
       </class>
       <class name="isnan" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="Z"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed27" class="Z"/>
+          <return value="_typeshed27"/>
         </method>
       </class>
       <class name="ldexp" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="__x __i" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="__x __i" static="false">
+          <new def="_typeshed28" class="D"/>
+          <return value="_typeshed28"/>
         </method>
       </class>
       <class name="lgamma" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed29" class="D"/>
+          <return value="_typeshed29"/>
         </method>
       </class>
       <class name="log" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="x base" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="x base" static="false">
+          <new def="_typeshed30" class="D"/>
+          <return value="_typeshed30"/>
         </method>
       </class>
       <class name="log10" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed31" class="D"/>
+          <return value="_typeshed31"/>
         </method>
       </class>
       <class name="log1p" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed32" class="D"/>
+          <return value="_typeshed32"/>
         </method>
       </class>
       <class name="log2" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed33" class="D"/>
+          <return value="_typeshed33"/>
         </method>
       </class>
       <class name="modf" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="Ltuple"/>
-          <new def="tmp_elt_typeshed0" class="D"/>
-          <putfield class="LRoot" field="0" fieldType="LRoot" ref="tmp_ret_typeshed_" value="tmp_elt_typeshed0"/>
-          <new def="tmp_elt_typeshed1" class="D"/>
-          <putfield class="LRoot" field="1" fieldType="LRoot" ref="tmp_ret_typeshed_" value="tmp_elt_typeshed1"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed34" class="Ltuple"/>
+          <new def="_typeshed35" class="D"/>
+          <putfield class="LRoot" field="0" fieldType="LRoot" ref="_typeshed34" value="_typeshed35"/>
+          <new def="_typeshed36" class="D"/>
+          <putfield class="LRoot" field="1" fieldType="LRoot" ref="_typeshed34" value="_typeshed36"/>
+          <return value="_typeshed34"/>
         </method>
       </class>
       <class name="pow" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="__x __y" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="__x __y" static="false">
+          <new def="_typeshed37" class="D"/>
+          <return value="_typeshed37"/>
         </method>
       </class>
       <class name="radians" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed38" class="D"/>
+          <return value="_typeshed38"/>
         </method>
       </class>
       <class name="sin" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed39" class="D"/>
+          <return value="_typeshed39"/>
         </method>
       </class>
       <class name="sinh" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed40" class="D"/>
+          <return value="_typeshed40"/>
         </method>
       </class>
       <class name="sqrt" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed41" class="D"/>
+          <return value="_typeshed41"/>
         </method>
       </class>
       <class name="tan" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed42" class="D"/>
+          <return value="_typeshed42"/>
         </method>
       </class>
       <class name="tanh" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="D"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed43" class="D"/>
+          <return value="_typeshed43"/>
         </method>
       </class>
       <class name="trunc" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="true">
-          <new def="tmp_ret_typeshed_" class="int"/>
-          <return value="tmp_ret_typeshed_"/>
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__x" static="false">
+          <new def="_typeshed44" class="I"/>
+          <return value="_typeshed44"/>
         </method>
       </class>
     </package>

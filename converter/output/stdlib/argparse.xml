@@ -78,7 +78,7 @@
     </class>
     <package name="argparse/function">
       <class name="_get_action_name" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="argument" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="argument" static="false">
           <new def="_typeshed131" class="Lstring LNone"/>
           <return value="_typeshed131"/>
         </method>
@@ -256,17 +256,17 @@
           <new def="HelpFormatter_typeshed_" class="Largparse/class/HelpFormatter"/>
           <new def="_prog_typeshed_" class="Lstring"/>
           <putfield class="LRoot" field="_prog" fieldType="LRoot" ref="HelpFormatter_typeshed_" value="_prog_typeshed_"/>
-          <new def="_indent_increment_typeshed_" class="int"/>
+          <new def="_indent_increment_typeshed_" class="I"/>
           <putfield class="LRoot" field="_indent_increment" fieldType="LRoot" ref="HelpFormatter_typeshed_" value="_indent_increment_typeshed_"/>
-          <new def="_max_help_position_typeshed_" class="int"/>
+          <new def="_max_help_position_typeshed_" class="I"/>
           <putfield class="LRoot" field="_max_help_position" fieldType="LRoot" ref="HelpFormatter_typeshed_" value="_max_help_position_typeshed_"/>
-          <new def="_width_typeshed_" class="int"/>
+          <new def="_width_typeshed_" class="I"/>
           <putfield class="LRoot" field="_width" fieldType="LRoot" ref="HelpFormatter_typeshed_" value="_width_typeshed_"/>
-          <new def="_current_indent_typeshed_" class="int"/>
+          <new def="_current_indent_typeshed_" class="I"/>
           <putfield class="LRoot" field="_current_indent" fieldType="LRoot" ref="HelpFormatter_typeshed_" value="_current_indent_typeshed_"/>
-          <new def="_level_typeshed_" class="int"/>
+          <new def="_level_typeshed_" class="I"/>
           <putfield class="LRoot" field="_level" fieldType="LRoot" ref="HelpFormatter_typeshed_" value="_level_typeshed_"/>
-          <new def="_action_max_length_typeshed_" class="int"/>
+          <new def="_action_max_length_typeshed_" class="I"/>
           <putfield class="LRoot" field="_action_max_length" fieldType="LRoot" ref="HelpFormatter_typeshed_" value="_action_max_length_typeshed_"/>
           <new def="_root_section_typeshed_" class="Lobject"/>
           <putfield class="LRoot" field="_root_section" fieldType="LRoot" ref="HelpFormatter_typeshed_" value="_root_section_typeshed_"/>
@@ -364,7 +364,7 @@
           <putfield class="LRoot" field="option_strings" fieldType="LRoot" ref="Action_typeshed_" value="option_strings_typeshed_"/>
           <new def="dest_typeshed_" class="Lstring"/>
           <putfield class="LRoot" field="dest" fieldType="LRoot" ref="Action_typeshed_" value="dest_typeshed_"/>
-          <new def="nargs_typeshed_" class="int Lstring LNone"/>
+          <new def="nargs_typeshed_" class="I Lstring LNone"/>
           <putfield class="LRoot" field="nargs" fieldType="LRoot" ref="Action_typeshed_" value="nargs_typeshed_"/>
           <new def="const_typeshed_" class="Lobject"/>
           <putfield class="LRoot" field="const" fieldType="LRoot" ref="Action_typeshed_" value="const_typeshed_"/>
@@ -406,7 +406,7 @@
           <new def="FileType_typeshed_" class="Largparse/class/FileType"/>
           <new def="_mode_typeshed_" class="Lstring"/>
           <putfield class="LRoot" field="_mode" fieldType="LRoot" ref="FileType_typeshed_" value="_mode_typeshed_"/>
-          <new def="_bufsize_typeshed_" class="int"/>
+          <new def="_bufsize_typeshed_" class="I"/>
           <putfield class="LRoot" field="_bufsize" fieldType="LRoot" ref="FileType_typeshed_" value="_bufsize_typeshed_"/>
           <new def="_encoding_typeshed_" class="Lstring LNone"/>
           <putfield class="LRoot" field="_encoding" fieldType="LRoot" ref="FileType_typeshed_" value="_encoding_typeshed_"/>
@@ -544,7 +544,7 @@
     </package>
     <package name="argparse/ArgumentError">
       <class name="__init__" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self argument message" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self argument message" static="false">
           <new def="_typeshed0" class="LNone"/>
           <return value="_typeshed0"/>
         </method>
@@ -552,7 +552,7 @@
     </package>
     <package name="argparse/_AttributeHolder">
       <class name="_get_kwargs" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="false">
           <new def="_typeshed1" class="Llist"/>
           <new def="_typeshed2" class="Ltuple"/>
           <new def="_typeshed3" class="Lstring"/>
@@ -564,7 +564,7 @@
         </method>
       </class>
       <class name="_get_args" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="false">
           <new def="_typeshed5" class="Llist"/>
           <new def="_typeshed6" class="Lobject"/>
           <putfield class="LRoot" field="0" fieldType="LRoot" ref="_typeshed5" value="_typeshed6"/>
@@ -574,73 +574,73 @@
     </package>
     <package name="argparse/_ActionsContainer">
       <class name="__init__" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="5" param_names="self description prefix_chars argument_default conflict_handler" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="5" param_names="self description prefix_chars argument_default conflict_handler" static="false">
           <new def="_typeshed7" class="LNone"/>
           <return value="_typeshed7"/>
         </method>
       </class>
       <class name="register" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="4" param_names="self registry_name value object" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="4" param_names="self registry_name value object" static="false">
           <new def="_typeshed8" class="LNone"/>
           <return value="_typeshed8"/>
         </method>
       </class>
       <class name="_registry_get" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="4" param_names="self registry_name value default" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="4" param_names="self registry_name value default" static="false">
           <new def="_typeshed9" class="Lobject"/>
           <return value="_typeshed9"/>
         </method>
       </class>
       <class name="set_defaults" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="false">
           <new def="_typeshed10" class="LNone"/>
           <return value="_typeshed10"/>
         </method>
       </class>
       <class name="get_default" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self dest" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self dest" static="false">
           <new def="_typeshed11" class="Lobject"/>
           <return value="_typeshed11"/>
         </method>
       </class>
       <class name="add_argument" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="12" param_names="self action nargs const default type choices required help metavar dest version" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="12" param_names="self action nargs const default type choices required help metavar dest version" static="false">
           <new def="_typeshed12" class="LAction"/>
           <return value="_typeshed12"/>
         </method>
       </class>
       <class name="add_argument_group" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="false">
           <new def="_typeshed13" class="L_ArgumentGroup"/>
           <return value="_typeshed13"/>
         </method>
       </class>
       <class name="add_mutually_exclusive_group" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="false">
           <new def="_typeshed14" class="L_MutuallyExclusiveGroup"/>
           <return value="_typeshed14"/>
         </method>
       </class>
       <class name="_add_action" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self action" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self action" static="false">
           <new def="_typeshed15" class="L_ActionT"/>
           <return value="_typeshed15"/>
         </method>
       </class>
       <class name="_remove_action" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self action" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self action" static="false">
           <new def="_typeshed16" class="LNone"/>
           <return value="_typeshed16"/>
         </method>
       </class>
       <class name="_add_container_actions" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self container" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self container" static="false">
           <new def="_typeshed17" class="LNone"/>
           <return value="_typeshed17"/>
         </method>
       </class>
       <class name="_get_positional_kwargs" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self dest" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self dest" static="false">
           <new def="_typeshed18" class="Ldict"/>
           <new def="_typeshed19" class="Lstring"/>
           <putfield class="LRoot" field="0" fieldType="LRoot" ref="_typeshed18" value="_typeshed19"/>
@@ -650,7 +650,7 @@
         </method>
       </class>
       <class name="_get_optional_kwargs" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="false">
           <new def="_typeshed21" class="Ldict"/>
           <new def="_typeshed22" class="Lstring"/>
           <putfield class="LRoot" field="0" fieldType="LRoot" ref="_typeshed21" value="_typeshed22"/>
@@ -660,7 +660,7 @@
         </method>
       </class>
       <class name="_pop_action_class" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self kwargs default" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self kwargs default" static="false">
           <new def="_typeshed24" class="LType"/>
           <new def="_typeshed25" class="LAction"/>
           <putfield class="LRoot" field="0" fieldType="LRoot" ref="_typeshed24" value="_typeshed25"/>
@@ -668,7 +668,7 @@
         </method>
       </class>
       <class name="_get_handler" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="false">
           <new def="_typeshed26" class="LCallable"/>
           <new def="_typeshed27" class="Llist"/>
           <new def="_typeshed28" class="LAction"/>
@@ -688,19 +688,19 @@
         </method>
       </class>
       <class name="_check_conflict" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self action" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self action" static="false">
           <new def="_typeshed34" class="LNone"/>
           <return value="_typeshed34"/>
         </method>
       </class>
       <class name="_handle_conflict_error" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self action conflicting_actions" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self action conflicting_actions" static="false">
           <new def="_typeshed35" class="LNoReturn"/>
           <return value="_typeshed35"/>
         </method>
       </class>
       <class name="_handle_conflict_resolve" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self action conflicting_actions" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self action conflicting_actions" static="false">
           <new def="_typeshed36" class="LNone"/>
           <return value="_typeshed36"/>
         </method>
@@ -708,7 +708,7 @@
     </package>
     <package name="argparse/_FormatterClass">
       <class name="__call__" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self prog" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self prog" static="false">
           <new def="_typeshed37" class="LHelpFormatter"/>
           <return value="_typeshed37"/>
         </method>
@@ -716,31 +716,31 @@
     </package>
     <package name="argparse/ArgumentParser">
       <class name="print_usage" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self file" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self file" static="false">
           <new def="_typeshed38" class="LNone"/>
           <return value="_typeshed38"/>
         </method>
       </class>
       <class name="print_help" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self file" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self file" static="false">
           <new def="_typeshed39" class="LNone"/>
           <return value="_typeshed39"/>
         </method>
       </class>
       <class name="format_usage" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="false">
           <new def="_typeshed40" class="Lstring"/>
           <return value="_typeshed40"/>
         </method>
       </class>
       <class name="format_help" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="false">
           <new def="_typeshed41" class="Lstring"/>
           <return value="_typeshed41"/>
         </method>
       </class>
       <class name="parse_known_args" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self args namespace" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self args namespace" static="false">
           <new def="_typeshed42" class="Ltuple"/>
           <new def="_typeshed43" class="LNamespace"/>
           <putfield class="LRoot" field="0" fieldType="LRoot" ref="_typeshed42" value="_typeshed43"/>
@@ -752,7 +752,7 @@
         </method>
       </class>
       <class name="convert_arg_line_to_args" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self arg_line" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self arg_line" static="false">
           <new def="_typeshed46" class="Llist"/>
           <new def="_typeshed47" class="Lstring"/>
           <putfield class="LRoot" field="0" fieldType="LRoot" ref="_typeshed46" value="_typeshed47"/>
@@ -760,19 +760,19 @@
         </method>
       </class>
       <class name="exit" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self status message" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self status message" static="false">
           <new def="_typeshed48" class="LNoReturn"/>
           <return value="_typeshed48"/>
         </method>
       </class>
       <class name="error" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self message" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self message" static="false">
           <new def="_typeshed49" class="LNoReturn"/>
           <return value="_typeshed49"/>
         </method>
       </class>
       <class name="_get_optional_actions" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="false">
           <new def="_typeshed50" class="Llist"/>
           <new def="_typeshed51" class="LAction"/>
           <putfield class="LRoot" field="0" fieldType="LRoot" ref="_typeshed50" value="_typeshed51"/>
@@ -780,7 +780,7 @@
         </method>
       </class>
       <class name="_get_positional_actions" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="false">
           <new def="_typeshed52" class="Llist"/>
           <new def="_typeshed53" class="LAction"/>
           <putfield class="LRoot" field="0" fieldType="LRoot" ref="_typeshed52" value="_typeshed53"/>
@@ -788,7 +788,7 @@
         </method>
       </class>
       <class name="_parse_known_args" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self arg_strings namespace" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self arg_strings namespace" static="false">
           <new def="_typeshed54" class="Ltuple"/>
           <new def="_typeshed55" class="LNamespace"/>
           <putfield class="LRoot" field="0" fieldType="LRoot" ref="_typeshed54" value="_typeshed55"/>
@@ -800,7 +800,7 @@
         </method>
       </class>
       <class name="_read_args_from_files" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self arg_strings" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self arg_strings" static="false">
           <new def="_typeshed58" class="Llist"/>
           <new def="_typeshed59" class="Lstring"/>
           <putfield class="LRoot" field="0" fieldType="LRoot" ref="_typeshed58" value="_typeshed59"/>
@@ -808,27 +808,27 @@
         </method>
       </class>
       <class name="_match_argument" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self action arg_strings_pattern" static="true">
-          <new def="_typeshed60" class="int"/>
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self action arg_strings_pattern" static="false">
+          <new def="_typeshed60" class="I"/>
           <return value="_typeshed60"/>
         </method>
       </class>
       <class name="_match_arguments_partial" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self actions arg_strings_pattern" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self actions arg_strings_pattern" static="false">
           <new def="_typeshed61" class="Llist"/>
-          <new def="_typeshed62" class="int"/>
+          <new def="_typeshed62" class="I"/>
           <putfield class="LRoot" field="0" fieldType="LRoot" ref="_typeshed61" value="_typeshed62"/>
           <return value="_typeshed61"/>
         </method>
       </class>
       <class name="_parse_optional" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self arg_string" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self arg_string" static="false">
           <new def="_typeshed63" class="Ltuple LNone"/>
           <return value="_typeshed63"/>
         </method>
       </class>
       <class name="_get_option_tuples" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self option_string" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self option_string" static="false">
           <new def="_typeshed64" class="Llist"/>
           <new def="_typeshed65" class="Ltuple"/>
           <new def="_typeshed66" class="LAction"/>
@@ -842,37 +842,37 @@
         </method>
       </class>
       <class name="_get_nargs_pattern" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self action" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self action" static="false">
           <new def="_typeshed69" class="Lstring"/>
           <return value="_typeshed69"/>
         </method>
       </class>
       <class name="_get_values" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self action arg_strings" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self action arg_strings" static="false">
           <new def="_typeshed70" class="Lobject"/>
           <return value="_typeshed70"/>
         </method>
       </class>
       <class name="_get_value" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self action arg_string" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self action arg_string" static="false">
           <new def="_typeshed71" class="Lobject"/>
           <return value="_typeshed71"/>
         </method>
       </class>
       <class name="_check_value" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self action value" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self action value" static="false">
           <new def="_typeshed72" class="LNone"/>
           <return value="_typeshed72"/>
         </method>
       </class>
       <class name="_get_formatter" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="false">
           <new def="_typeshed73" class="LHelpFormatter"/>
           <return value="_typeshed73"/>
         </method>
       </class>
       <class name="_print_message" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self message file" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self message file" static="false">
           <new def="_typeshed74" class="LNone"/>
           <return value="_typeshed74"/>
         </method>
@@ -880,112 +880,112 @@
     </package>
     <package name="argparse/HelpFormatter">
       <class name="__init__" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="5" param_names="self prog indent_increment max_help_position width" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="5" param_names="self prog indent_increment max_help_position width" static="false">
           <new def="_typeshed75" class="LNone"/>
           <return value="_typeshed75"/>
         </method>
       </class>
       <class name="_indent" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="false">
           <new def="_typeshed76" class="LNone"/>
           <return value="_typeshed76"/>
         </method>
       </class>
       <class name="_dedent" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="false">
           <new def="_typeshed77" class="LNone"/>
           <return value="_typeshed77"/>
         </method>
       </class>
       <class name="_add_item" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self func args" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self func args" static="false">
           <new def="_typeshed78" class="LNone"/>
           <return value="_typeshed78"/>
         </method>
       </class>
       <class name="start_section" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self heading" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self heading" static="false">
           <new def="_typeshed79" class="LNone"/>
           <return value="_typeshed79"/>
         </method>
       </class>
       <class name="end_section" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="false">
           <new def="_typeshed80" class="LNone"/>
           <return value="_typeshed80"/>
         </method>
       </class>
       <class name="add_text" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self text" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self text" static="false">
           <new def="_typeshed81" class="LNone"/>
           <return value="_typeshed81"/>
         </method>
       </class>
       <class name="add_usage" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="5" param_names="self usage actions groups prefix" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="5" param_names="self usage actions groups prefix" static="false">
           <new def="_typeshed82" class="LNone"/>
           <return value="_typeshed82"/>
         </method>
       </class>
       <class name="add_argument" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self action" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self action" static="false">
           <new def="_typeshed83" class="LNone"/>
           <return value="_typeshed83"/>
         </method>
       </class>
       <class name="add_arguments" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self actions" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self actions" static="false">
           <new def="_typeshed84" class="LNone"/>
           <return value="_typeshed84"/>
         </method>
       </class>
       <class name="format_help" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="false">
           <new def="_typeshed85" class="Lstring"/>
           <return value="_typeshed85"/>
         </method>
       </class>
       <class name="_join_parts" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self part_strings" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self part_strings" static="false">
           <new def="_typeshed86" class="Lstring"/>
           <return value="_typeshed86"/>
         </method>
       </class>
       <class name="_format_usage" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="5" param_names="self usage actions groups prefix" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="5" param_names="self usage actions groups prefix" static="false">
           <new def="_typeshed87" class="Lstring"/>
           <return value="_typeshed87"/>
         </method>
       </class>
       <class name="_format_actions_usage" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self actions groups" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self actions groups" static="false">
           <new def="_typeshed88" class="Lstring"/>
           <return value="_typeshed88"/>
         </method>
       </class>
       <class name="_format_text" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self text" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self text" static="false">
           <new def="_typeshed89" class="Lstring"/>
           <return value="_typeshed89"/>
         </method>
       </class>
       <class name="_format_action" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self action" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self action" static="false">
           <new def="_typeshed90" class="Lstring"/>
           <return value="_typeshed90"/>
         </method>
       </class>
       <class name="_format_action_invocation" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self action" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self action" static="false">
           <new def="_typeshed91" class="Lstring"/>
           <return value="_typeshed91"/>
         </method>
       </class>
       <class name="_metavar_formatter" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self action default_metavar" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self action default_metavar" static="false">
           <new def="_typeshed92" class="LCallable"/>
           <new def="_typeshed93" class="Llist"/>
-          <new def="_typeshed94" class="int"/>
+          <new def="_typeshed94" class="I"/>
           <putfield class="LRoot" field="0" fieldType="LRoot" ref="_typeshed93" value="_typeshed94"/>
           <putfield class="LRoot" field="0" fieldType="LRoot" ref="_typeshed92" value="_typeshed93"/>
           <new def="_typeshed95" class="LTuple"/>
@@ -998,19 +998,19 @@
         </method>
       </class>
       <class name="_format_args" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self action default_metavar" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self action default_metavar" static="false">
           <new def="_typeshed98" class="Lstring"/>
           <return value="_typeshed98"/>
         </method>
       </class>
       <class name="_expand_help" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self action" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self action" static="false">
           <new def="_typeshed99" class="Lstring"/>
           <return value="_typeshed99"/>
         </method>
       </class>
       <class name="_iter_indented_subactions" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self action" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self action" static="false">
           <new def="_typeshed100" class="LGenerator"/>
           <new def="_typeshed101" class="LAction"/>
           <putfield class="LRoot" field="0" fieldType="LRoot" ref="_typeshed100" value="_typeshed101"/>
@@ -1022,7 +1022,7 @@
         </method>
       </class>
       <class name="_split_lines" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self text width" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self text width" static="false">
           <new def="_typeshed104" class="Llist"/>
           <new def="_typeshed105" class="Lstring"/>
           <putfield class="LRoot" field="0" fieldType="LRoot" ref="_typeshed104" value="_typeshed105"/>
@@ -1030,25 +1030,25 @@
         </method>
       </class>
       <class name="_fill_text" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="4" param_names="self text width indent" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="4" param_names="self text width indent" static="false">
           <new def="_typeshed106" class="Lstring"/>
           <return value="_typeshed106"/>
         </method>
       </class>
       <class name="_get_help_string" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self action" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self action" static="false">
           <new def="_typeshed107" class="Lstring LNone"/>
           <return value="_typeshed107"/>
         </method>
       </class>
       <class name="_get_default_metavar_for_optional" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self action" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self action" static="false">
           <new def="_typeshed108" class="Lstring"/>
           <return value="_typeshed108"/>
         </method>
       </class>
       <class name="_get_default_metavar_for_positional" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self action" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self action" static="false">
           <new def="_typeshed109" class="Lstring"/>
           <return value="_typeshed109"/>
         </method>
@@ -1060,13 +1060,13 @@
     <package name="argparse/MetavarTypeHelpFormatter"/>
     <package name="argparse/Action">
       <class name="__init__" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="11" param_names="self option_strings dest nargs const default type choices required help metavar" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="11" param_names="self option_strings dest nargs const default type choices required help metavar" static="false">
           <new def="_typeshed110" class="LNone"/>
           <return value="_typeshed110"/>
         </method>
       </class>
       <class name="__call__" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="5" param_names="self parser namespace values option_string" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="5" param_names="self parser namespace values option_string" static="false">
           <new def="_typeshed111" class="LNone"/>
           <return value="_typeshed111"/>
         </method>
@@ -1074,25 +1074,25 @@
     </package>
     <package name="argparse/Namespace">
       <class name="__init__" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="false">
           <new def="_typeshed112" class="LNone"/>
           <return value="_typeshed112"/>
         </method>
       </class>
       <class name="__getattr__" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self name" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self name" static="false">
           <new def="_typeshed113" class="Lobject"/>
           <return value="_typeshed113"/>
         </method>
       </class>
       <class name="__setattr__" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self name value" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self name value" static="false">
           <new def="_typeshed114" class="LNone"/>
           <return value="_typeshed114"/>
         </method>
       </class>
       <class name="__contains__" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self key" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self key" static="false">
           <new def="_typeshed115" class="Z"/>
           <return value="_typeshed115"/>
         </method>
@@ -1100,13 +1100,13 @@
     </package>
     <package name="argparse/FileType">
       <class name="__init__" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="5" param_names="self mode bufsize encoding errors" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="5" param_names="self mode bufsize encoding errors" static="false">
           <new def="_typeshed116" class="LNone"/>
           <return value="_typeshed116"/>
         </method>
       </class>
       <class name="__call__" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self string" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self string" static="false">
           <new def="_typeshed117" class="LIO"/>
           <new def="_typeshed118" class="Lobject"/>
           <putfield class="LRoot" field="0" fieldType="LRoot" ref="_typeshed117" value="_typeshed118"/>
@@ -1116,7 +1116,7 @@
     </package>
     <package name="argparse/_ArgumentGroup">
       <class name="__init__" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="4" param_names="self container title description" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="4" param_names="self container title description" static="false">
           <new def="_typeshed119" class="LNone"/>
           <return value="_typeshed119"/>
         </method>
@@ -1124,7 +1124,7 @@
     </package>
     <package name="argparse/_MutuallyExclusiveGroup">
       <class name="__init__" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self container required" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self container required" static="false">
           <new def="_typeshed120" class="LNone"/>
           <return value="_typeshed120"/>
         </method>
@@ -1133,7 +1133,7 @@
     <package name="argparse/_StoreAction"/>
     <package name="argparse/_StoreConstAction">
       <class name="__init__" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="8" param_names="self option_strings dest const default required help metavar" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="8" param_names="self option_strings dest const default required help metavar" static="false">
           <new def="_typeshed121" class="LNone"/>
           <return value="_typeshed121"/>
         </method>
@@ -1141,7 +1141,7 @@
     </package>
     <package name="argparse/_StoreTrueAction">
       <class name="__init__" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="6" param_names="self option_strings dest default required help" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="6" param_names="self option_strings dest default required help" static="false">
           <new def="_typeshed122" class="LNone"/>
           <return value="_typeshed122"/>
         </method>
@@ -1149,7 +1149,7 @@
     </package>
     <package name="argparse/_StoreFalseAction">
       <class name="__init__" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="6" param_names="self option_strings dest default required help" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="6" param_names="self option_strings dest default required help" static="false">
           <new def="_typeshed123" class="LNone"/>
           <return value="_typeshed123"/>
         </method>
@@ -1158,7 +1158,7 @@
     <package name="argparse/_AppendAction"/>
     <package name="argparse/_AppendConstAction">
       <class name="__init__" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="8" param_names="self option_strings dest const default required help metavar" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="8" param_names="self option_strings dest const default required help metavar" static="false">
           <new def="_typeshed124" class="LNone"/>
           <return value="_typeshed124"/>
         </method>
@@ -1166,7 +1166,7 @@
     </package>
     <package name="argparse/_CountAction">
       <class name="__init__" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="6" param_names="self option_strings dest default required help" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="6" param_names="self option_strings dest default required help" static="false">
           <new def="_typeshed125" class="LNone"/>
           <return value="_typeshed125"/>
         </method>
@@ -1174,7 +1174,7 @@
     </package>
     <package name="argparse/_HelpAction">
       <class name="__init__" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="5" param_names="self option_strings dest default help" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="5" param_names="self option_strings dest default help" static="false">
           <new def="_typeshed126" class="LNone"/>
           <return value="_typeshed126"/>
         </method>
@@ -1182,7 +1182,7 @@
     </package>
     <package name="argparse/_VersionAction">
       <class name="__init__" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="6" param_names="self option_strings version dest default help" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="6" param_names="self option_strings version dest default help" static="false">
           <new def="_typeshed127" class="LNone"/>
           <return value="_typeshed127"/>
         </method>
@@ -1190,13 +1190,13 @@
     </package>
     <package name="argparse/_SubParsersAction">
       <class name="add_parser" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self name" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self name" static="false">
           <new def="_typeshed128" class="L_ArgumentParserT"/>
           <return value="_typeshed128"/>
         </method>
       </class>
       <class name="_get_subactions" allocatable="true">
-        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="true">
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="false">
           <new def="_typeshed129" class="Llist"/>
           <new def="_typeshed130" class="LAction"/>
           <putfield class="LRoot" field="0" fieldType="LRoot" ref="_typeshed129" value="_typeshed130"/>

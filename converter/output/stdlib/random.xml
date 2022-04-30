@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE summary-spec>
+<summary-spec>
+  <classloader name="PythonLoader">
+    <class name="random" allocatable="true">
+      <method name="import" static="true" descriptor="()Lrandom;">
+        <new def="obj_typeshed_" class="Lrandom"/>
+        <new def="Random_typeshed_" class="Lrandom/class/Random"/>
+        <putfield class="LRoot" field="Random" fieldType="LRoot" ref="obj_typeshed_" value="Random_typeshed_"/>
+        <new def="SystemRandom_typeshed_" class="Lrandom/class/SystemRandom"/>
+        <putfield class="LRoot" field="SystemRandom" fieldType="LRoot" ref="obj_typeshed_" value="SystemRandom_typeshed_"/>
+        <new def="seed_typeshed_" class="Lrandom/function/seed"/>
+        <putfield class="LRoot" field="seed" fieldType="LRoot" ref="obj_typeshed_" value="seed_typeshed_"/>
+        <new def="getstate_typeshed_" class="Lrandom/function/getstate"/>
+        <putfield class="LRoot" field="getstate" fieldType="LRoot" ref="obj_typeshed_" value="getstate_typeshed_"/>
+        <new def="setstate_typeshed_" class="Lrandom/function/setstate"/>
+        <putfield class="LRoot" field="setstate" fieldType="LRoot" ref="obj_typeshed_" value="setstate_typeshed_"/>
+        <new def="getrandbits_typeshed_" class="Lrandom/function/getrandbits"/>
+        <putfield class="LRoot" field="getrandbits" fieldType="LRoot" ref="obj_typeshed_" value="getrandbits_typeshed_"/>
+        <new def="randrange_typeshed_" class="Lrandom/function/randrange"/>
+        <putfield class="LRoot" field="randrange" fieldType="LRoot" ref="obj_typeshed_" value="randrange_typeshed_"/>
+        <new def="randint_typeshed_" class="Lrandom/function/randint"/>
+        <putfield class="LRoot" field="randint" fieldType="LRoot" ref="obj_typeshed_" value="randint_typeshed_"/>
+        <new def="choice_typeshed_" class="Lrandom/function/choice"/>
+        <putfield class="LRoot" field="choice" fieldType="LRoot" ref="obj_typeshed_" value="choice_typeshed_"/>
+        <new def="choices_typeshed_" class="Lrandom/function/choices"/>
+        <putfield class="LRoot" field="choices" fieldType="LRoot" ref="obj_typeshed_" value="choices_typeshed_"/>
+        <new def="shuffle_typeshed_" class="Lrandom/function/shuffle"/>
+        <putfield class="LRoot" field="shuffle" fieldType="LRoot" ref="obj_typeshed_" value="shuffle_typeshed_"/>
+        <new def="random_typeshed_" class="Lrandom/function/random"/>
+        <putfield class="LRoot" field="random" fieldType="LRoot" ref="obj_typeshed_" value="random_typeshed_"/>
+        <new def="uniform_typeshed_" class="Lrandom/function/uniform"/>
+        <putfield class="LRoot" field="uniform" fieldType="LRoot" ref="obj_typeshed_" value="uniform_typeshed_"/>
+        <new def="triangular_typeshed_" class="Lrandom/function/triangular"/>
+        <putfield class="LRoot" field="triangular" fieldType="LRoot" ref="obj_typeshed_" value="triangular_typeshed_"/>
+        <new def="betavariate_typeshed_" class="Lrandom/function/betavariate"/>
+        <putfield class="LRoot" field="betavariate" fieldType="LRoot" ref="obj_typeshed_" value="betavariate_typeshed_"/>
+        <new def="expovariate_typeshed_" class="Lrandom/function/expovariate"/>
+        <putfield class="LRoot" field="expovariate" fieldType="LRoot" ref="obj_typeshed_" value="expovariate_typeshed_"/>
+        <new def="gammavariate_typeshed_" class="Lrandom/function/gammavariate"/>
+        <putfield class="LRoot" field="gammavariate" fieldType="LRoot" ref="obj_typeshed_" value="gammavariate_typeshed_"/>
+        <new def="gauss_typeshed_" class="Lrandom/function/gauss"/>
+        <putfield class="LRoot" field="gauss" fieldType="LRoot" ref="obj_typeshed_" value="gauss_typeshed_"/>
+        <new def="lognormvariate_typeshed_" class="Lrandom/function/lognormvariate"/>
+        <putfield class="LRoot" field="lognormvariate" fieldType="LRoot" ref="obj_typeshed_" value="lognormvariate_typeshed_"/>
+        <new def="normalvariate_typeshed_" class="Lrandom/function/normalvariate"/>
+        <putfield class="LRoot" field="normalvariate" fieldType="LRoot" ref="obj_typeshed_" value="normalvariate_typeshed_"/>
+        <new def="vonmisesvariate_typeshed_" class="Lrandom/function/vonmisesvariate"/>
+        <putfield class="LRoot" field="vonmisesvariate" fieldType="LRoot" ref="obj_typeshed_" value="vonmisesvariate_typeshed_"/>
+        <new def="paretovariate_typeshed_" class="Lrandom/function/paretovariate"/>
+        <putfield class="LRoot" field="paretovariate" fieldType="LRoot" ref="obj_typeshed_" value="paretovariate_typeshed_"/>
+        <new def="weibullvariate_typeshed_" class="Lrandom/function/weibullvariate"/>
+        <putfield class="LRoot" field="weibullvariate" fieldType="LRoot" ref="obj_typeshed_" value="weibullvariate_typeshed_"/>
+        <return value="obj_typeshed_"/>
+      </method>
+    </class>
+    <package name="random/function">
+      <class name="seed" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="a version" static="false">
+          <new def="_typeshed27" class="LNone"/>
+          <return value="_typeshed27"/>
+        </method>
+      </class>
+      <class name="getstate" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="0" param_names="" static="false">
+          <new def="_typeshed28" class="Lobject"/>
+          <return value="_typeshed28"/>
+        </method>
+      </class>
+      <class name="setstate" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="state" static="false">
+          <new def="_typeshed29" class="LNone"/>
+          <return value="_typeshed29"/>
+        </method>
+      </class>
+      <class name="getrandbits" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="__k" static="false">
+          <new def="_typeshed30" class="I"/>
+          <return value="_typeshed30"/>
+        </method>
+      </class>
+      <class name="randrange" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="start stop step" static="false">
+          <new def="_typeshed31" class="I"/>
+          <return value="_typeshed31"/>
+        </method>
+      </class>
+      <class name="randint" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="a b" static="false">
+          <new def="_typeshed32" class="I"/>
+          <return value="_typeshed32"/>
+        </method>
+      </class>
+      <class name="choice" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="seq" static="false">
+          <new def="_typeshed33" class="L_T"/>
+          <return value="_typeshed33"/>
+        </method>
+      </class>
+      <class name="choices" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="4" param_names="population weights cum_weights k" static="false">
+          <new def="_typeshed34" class="Llist"/>
+          <new def="_typeshed35" class="L_T"/>
+          <putfield class="LRoot" field="0" fieldType="LRoot" ref="_typeshed34" value="_typeshed35"/>
+          <return value="_typeshed34"/>
+        </method>
+      </class>
+      <class name="shuffle" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="x random" static="false">
+          <new def="_typeshed36" class="LNone"/>
+          <return value="_typeshed36"/>
+        </method>
+      </class>
+      <class name="random" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="0" param_names="" static="false">
+          <new def="_typeshed37" class="D"/>
+          <return value="_typeshed37"/>
+        </method>
+      </class>
+      <class name="uniform" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="a b" static="false">
+          <new def="_typeshed38" class="D"/>
+          <return value="_typeshed38"/>
+        </method>
+      </class>
+      <class name="triangular" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="low high mode" static="false">
+          <new def="_typeshed39" class="D"/>
+          <return value="_typeshed39"/>
+        </method>
+      </class>
+      <class name="betavariate" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="alpha beta" static="false">
+          <new def="_typeshed40" class="D"/>
+          <return value="_typeshed40"/>
+        </method>
+      </class>
+      <class name="expovariate" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="lambd" static="false">
+          <new def="_typeshed41" class="D"/>
+          <return value="_typeshed41"/>
+        </method>
+      </class>
+      <class name="gammavariate" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="alpha beta" static="false">
+          <new def="_typeshed42" class="D"/>
+          <return value="_typeshed42"/>
+        </method>
+      </class>
+      <class name="gauss" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="mu sigma" static="false">
+          <new def="_typeshed43" class="D"/>
+          <return value="_typeshed43"/>
+        </method>
+      </class>
+      <class name="lognormvariate" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="mu sigma" static="false">
+          <new def="_typeshed44" class="D"/>
+          <return value="_typeshed44"/>
+        </method>
+      </class>
+      <class name="normalvariate" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="mu sigma" static="false">
+          <new def="_typeshed45" class="D"/>
+          <return value="_typeshed45"/>
+        </method>
+      </class>
+      <class name="vonmisesvariate" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="mu kappa" static="false">
+          <new def="_typeshed46" class="D"/>
+          <return value="_typeshed46"/>
+        </method>
+      </class>
+      <class name="paretovariate" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="alpha" static="false">
+          <new def="_typeshed47" class="D"/>
+          <return value="_typeshed47"/>
+        </method>
+      </class>
+      <class name="weibullvariate" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="alpha beta" static="false">
+          <new def="_typeshed48" class="D"/>
+          <return value="_typeshed48"/>
+        </method>
+      </class>
+    </package>
+    <package name="random/class">
+      <class name="Random" allocatable="true">
+        <method name="do" descriptor="()LRoot;">
+          <new def="Random_typeshed_" class="Lrandom/class/Random"/>
+          <new def="__init___typeshed_" class="Lrandom/Random/__init__"/>
+          <putfield class="LRoot" field="__init__" fieldType="LRoot" ref="Random_typeshed_" value="__init___typeshed_"/>
+          <new def="seed_typeshed_" class="Lrandom/Random/seed"/>
+          <putfield class="LRoot" field="seed" fieldType="LRoot" ref="Random_typeshed_" value="seed_typeshed_"/>
+          <new def="getstate_typeshed_" class="Lrandom/Random/getstate"/>
+          <putfield class="LRoot" field="getstate" fieldType="LRoot" ref="Random_typeshed_" value="getstate_typeshed_"/>
+          <new def="setstate_typeshed_" class="Lrandom/Random/setstate"/>
+          <putfield class="LRoot" field="setstate" fieldType="LRoot" ref="Random_typeshed_" value="setstate_typeshed_"/>
+          <new def="getrandbits_typeshed_" class="Lrandom/Random/getrandbits"/>
+          <putfield class="LRoot" field="getrandbits" fieldType="LRoot" ref="Random_typeshed_" value="getrandbits_typeshed_"/>
+          <new def="randrange_typeshed_" class="Lrandom/Random/randrange"/>
+          <putfield class="LRoot" field="randrange" fieldType="LRoot" ref="Random_typeshed_" value="randrange_typeshed_"/>
+          <new def="randint_typeshed_" class="Lrandom/Random/randint"/>
+          <putfield class="LRoot" field="randint" fieldType="LRoot" ref="Random_typeshed_" value="randint_typeshed_"/>
+          <new def="choice_typeshed_" class="Lrandom/Random/choice"/>
+          <putfield class="LRoot" field="choice" fieldType="LRoot" ref="Random_typeshed_" value="choice_typeshed_"/>
+          <new def="choices_typeshed_" class="Lrandom/Random/choices"/>
+          <putfield class="LRoot" field="choices" fieldType="LRoot" ref="Random_typeshed_" value="choices_typeshed_"/>
+          <new def="shuffle_typeshed_" class="Lrandom/Random/shuffle"/>
+          <putfield class="LRoot" field="shuffle" fieldType="LRoot" ref="Random_typeshed_" value="shuffle_typeshed_"/>
+          <new def="random_typeshed_" class="Lrandom/Random/random"/>
+          <putfield class="LRoot" field="random" fieldType="LRoot" ref="Random_typeshed_" value="random_typeshed_"/>
+          <new def="uniform_typeshed_" class="Lrandom/Random/uniform"/>
+          <putfield class="LRoot" field="uniform" fieldType="LRoot" ref="Random_typeshed_" value="uniform_typeshed_"/>
+          <new def="triangular_typeshed_" class="Lrandom/Random/triangular"/>
+          <putfield class="LRoot" field="triangular" fieldType="LRoot" ref="Random_typeshed_" value="triangular_typeshed_"/>
+          <new def="betavariate_typeshed_" class="Lrandom/Random/betavariate"/>
+          <putfield class="LRoot" field="betavariate" fieldType="LRoot" ref="Random_typeshed_" value="betavariate_typeshed_"/>
+          <new def="expovariate_typeshed_" class="Lrandom/Random/expovariate"/>
+          <putfield class="LRoot" field="expovariate" fieldType="LRoot" ref="Random_typeshed_" value="expovariate_typeshed_"/>
+          <new def="gammavariate_typeshed_" class="Lrandom/Random/gammavariate"/>
+          <putfield class="LRoot" field="gammavariate" fieldType="LRoot" ref="Random_typeshed_" value="gammavariate_typeshed_"/>
+          <new def="gauss_typeshed_" class="Lrandom/Random/gauss"/>
+          <putfield class="LRoot" field="gauss" fieldType="LRoot" ref="Random_typeshed_" value="gauss_typeshed_"/>
+          <new def="lognormvariate_typeshed_" class="Lrandom/Random/lognormvariate"/>
+          <putfield class="LRoot" field="lognormvariate" fieldType="LRoot" ref="Random_typeshed_" value="lognormvariate_typeshed_"/>
+          <new def="normalvariate_typeshed_" class="Lrandom/Random/normalvariate"/>
+          <putfield class="LRoot" field="normalvariate" fieldType="LRoot" ref="Random_typeshed_" value="normalvariate_typeshed_"/>
+          <new def="vonmisesvariate_typeshed_" class="Lrandom/Random/vonmisesvariate"/>
+          <putfield class="LRoot" field="vonmisesvariate" fieldType="LRoot" ref="Random_typeshed_" value="vonmisesvariate_typeshed_"/>
+          <new def="paretovariate_typeshed_" class="Lrandom/Random/paretovariate"/>
+          <putfield class="LRoot" field="paretovariate" fieldType="LRoot" ref="Random_typeshed_" value="paretovariate_typeshed_"/>
+          <new def="weibullvariate_typeshed_" class="Lrandom/Random/weibullvariate"/>
+          <putfield class="LRoot" field="weibullvariate" fieldType="LRoot" ref="Random_typeshed_" value="weibullvariate_typeshed_"/>
+          <return value="Random_typeshed_"/>
+        </method>
+      </class>
+      <class name="SystemRandom" allocatable="true">
+        <method name="do" descriptor="()LRoot;">
+          <new def="SystemRandom_typeshed_" class="Lrandom/class/SystemRandom"/>
+          <new def="getstate_typeshed_" class="Lrandom/SystemRandom/getstate"/>
+          <putfield class="LRoot" field="getstate" fieldType="LRoot" ref="SystemRandom_typeshed_" value="getstate_typeshed_"/>
+          <new def="setstate_typeshed_" class="Lrandom/SystemRandom/setstate"/>
+          <putfield class="LRoot" field="setstate" fieldType="LRoot" ref="SystemRandom_typeshed_" value="setstate_typeshed_"/>
+          <return value="SystemRandom_typeshed_"/>
+        </method>
+      </class>
+    </package>
+    <package name="random/Random">
+      <class name="__init__" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self x" static="false">
+          <new def="_typeshed0" class="LNone"/>
+          <return value="_typeshed0"/>
+        </method>
+      </class>
+      <class name="seed" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self a version" static="false">
+          <new def="_typeshed1" class="LNone"/>
+          <return value="_typeshed1"/>
+        </method>
+      </class>
+      <class name="getstate" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="false">
+          <new def="_typeshed2" class="LTuple"/>
+          <new def="_typeshed3" class="Lobject"/>
+          <putfield class="LRoot" field="0" fieldType="LRoot" ref="_typeshed2" value="_typeshed3"/>
+          <new def="_typeshed4" class="LEllipsis"/>
+          <putfield class="LRoot" field="1" fieldType="LRoot" ref="_typeshed2" value="_typeshed4"/>
+          <return value="_typeshed2"/>
+        </method>
+      </class>
+      <class name="setstate" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self state" static="false">
+          <new def="_typeshed5" class="LNone"/>
+          <return value="_typeshed5"/>
+        </method>
+      </class>
+      <class name="getrandbits" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self __k" static="false">
+          <new def="_typeshed6" class="I"/>
+          <return value="_typeshed6"/>
+        </method>
+      </class>
+      <class name="randrange" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="4" param_names="self start stop step" static="false">
+          <new def="_typeshed7" class="I"/>
+          <return value="_typeshed7"/>
+        </method>
+      </class>
+      <class name="randint" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self a b" static="false">
+          <new def="_typeshed8" class="I"/>
+          <return value="_typeshed8"/>
+        </method>
+      </class>
+      <class name="choice" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self seq" static="false">
+          <new def="_typeshed9" class="L_T"/>
+          <return value="_typeshed9"/>
+        </method>
+      </class>
+      <class name="choices" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="5" param_names="self population weights cum_weights k" static="false">
+          <new def="_typeshed10" class="Llist"/>
+          <new def="_typeshed11" class="L_T"/>
+          <putfield class="LRoot" field="0" fieldType="LRoot" ref="_typeshed10" value="_typeshed11"/>
+          <return value="_typeshed10"/>
+        </method>
+      </class>
+      <class name="shuffle" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self x random" static="false">
+          <new def="_typeshed12" class="LNone"/>
+          <return value="_typeshed12"/>
+        </method>
+      </class>
+      <class name="random" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="false">
+          <new def="_typeshed13" class="D"/>
+          <return value="_typeshed13"/>
+        </method>
+      </class>
+      <class name="uniform" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self a b" static="false">
+          <new def="_typeshed14" class="D"/>
+          <return value="_typeshed14"/>
+        </method>
+      </class>
+      <class name="triangular" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="4" param_names="self low high mode" static="false">
+          <new def="_typeshed15" class="D"/>
+          <return value="_typeshed15"/>
+        </method>
+      </class>
+      <class name="betavariate" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self alpha beta" static="false">
+          <new def="_typeshed16" class="D"/>
+          <return value="_typeshed16"/>
+        </method>
+      </class>
+      <class name="expovariate" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self lambd" static="false">
+          <new def="_typeshed17" class="D"/>
+          <return value="_typeshed17"/>
+        </method>
+      </class>
+      <class name="gammavariate" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self alpha beta" static="false">
+          <new def="_typeshed18" class="D"/>
+          <return value="_typeshed18"/>
+        </method>
+      </class>
+      <class name="gauss" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self mu sigma" static="false">
+          <new def="_typeshed19" class="D"/>
+          <return value="_typeshed19"/>
+        </method>
+      </class>
+      <class name="lognormvariate" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self mu sigma" static="false">
+          <new def="_typeshed20" class="D"/>
+          <return value="_typeshed20"/>
+        </method>
+      </class>
+      <class name="normalvariate" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self mu sigma" static="false">
+          <new def="_typeshed21" class="D"/>
+          <return value="_typeshed21"/>
+        </method>
+      </class>
+      <class name="vonmisesvariate" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self mu kappa" static="false">
+          <new def="_typeshed22" class="D"/>
+          <return value="_typeshed22"/>
+        </method>
+      </class>
+      <class name="paretovariate" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="2" param_names="self alpha" static="false">
+          <new def="_typeshed23" class="D"/>
+          <return value="_typeshed23"/>
+        </method>
+      </class>
+      <class name="weibullvariate" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="3" param_names="self alpha beta" static="false">
+          <new def="_typeshed24" class="D"/>
+          <return value="_typeshed24"/>
+        </method>
+      </class>
+    </package>
+    <package name="random/SystemRandom">
+      <class name="getstate" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="false">
+          <new def="_typeshed25" class="LNoReturn"/>
+          <return value="_typeshed25"/>
+        </method>
+      </class>
+      <class name="setstate" allocatable="true">
+        <method name="do" descriptor="()LRoot;" num_args="1" param_names="self" static="false">
+          <new def="_typeshed26" class="LNoReturn"/>
+          <return value="_typeshed26"/>
+        </method>
+      </class>
+    </package>
+  </classloader>
+</summary-spec>
