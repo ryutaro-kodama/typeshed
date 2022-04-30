@@ -6,7 +6,7 @@ import xml.dom.minidom as md
 
 class PythonType2AriadneType:
     string2AriadneString = {
-        "bool": "Z", "int": "int", "float": "D", "str": "Lstring",
+        "bool": "Z", "int": "I", "float": "D", "str": "Lstring",
         "list": "Llist", "set": "Lset", "tuple": "Ltuple", "dict": "Ldict",
         "None": "LNone", "Any": "Lobject"
     }
